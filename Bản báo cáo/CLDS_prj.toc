@@ -1,3 +1,0 @@
-\beamer@sectionintoc {1}{Thu\IeC {\d \acircumflex }t to\IeC {\'a}n ph\IeC {\^a}n c\IeC {\d u}m K-Means}{4}{0}{1}
-\beamer@sectionintoc {2}{M\IeC {\^o} h\IeC {\`\i }nh MapReduce}{10}{0}{2}
-\beamer@sectionintoc {3}{Thu\IeC {\d \acircumflex }t to\IeC {\'a}n PK-MEANS tr\IeC {\^e}n MAPREDUCE}{18}{0}{3}

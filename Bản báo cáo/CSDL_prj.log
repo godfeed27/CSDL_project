@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2021.3.27)  29 APR 2021 12:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2021.3.27)  24 MAY 2021 01:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**CLDS_prj.tex
-(./CLDS_prj.tex
+**CSDL_prj.tex
+(./CSDL_prj.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
@@ -1217,8 +1217,8 @@ Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
 Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaL
 aTeX to use the Fira fonts on input line 95.
 
-)) (./CLDS_prj.aux)
-\openout1 = `CLDS_prj.aux'.
+)) (./CSDL_prj.aux)
+\openout1 = `CSDL_prj.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -1326,9 +1326,9 @@ LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
 LaTeX Info: Redefining \nameref on input line 6.
 
-(./CLDS_prj.out) (./CLDS_prj.out)
+(./CSDL_prj.out) (./CSDL_prj.out)
 \@outlinefile=\write5
-\openout5 = `CLDS_prj.out'.
+\openout5 = `CSDL_prj.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 6.
@@ -1400,7 +1400,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-theorem-dic
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./CLDS_prj.nav)
+) (./CSDL_prj.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
@@ -1457,7 +1457,7 @@ LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <8> not available
 (Font)              Font shape `T5/lmss/m/sl' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <6> not available
 (Font)              Font shape `T5/lmss/m/sl' tried instead on input line 19.
- (./CLDS_prj.toc)
+ (./CSDL_prj.toc)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2
@@ -1484,7 +1484,7 @@ LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <12> not available
 (Font)              Font shape `T5/lmss/m/sl' tried instead on input line 28.
 [4
 
-] (./CLDS_prj.toc) [5
+] (./CSDL_prj.toc) [5
 
 ]
 
@@ -1516,214 +1516,244 @@ LaTeX Warning: The counter will not be printed.
 [8
 
 ]
-<kmeans/kmeans-0.png, id=90, 1606.0pt x 1204.5pt>
+<kmean.png, id=90, 816.04875pt x 682.55pt>
+File: kmean.png Graphic file (type png)
+<use kmean.png>
+Package pdftex.def Info: kmean.png  used on input line 76.
+(pdftex.def)             Requested size: 244.81651pt x 204.76657pt.
+ [9
+
+ <./kmean.png>]
+<kmeans/kmeans-0.png, id=99, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-0.png Graphic file (type png)
 <use kmeans/kmeans-0.png>
-Package pdftex.def Info: kmeans/kmeans-0.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-0.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
  <./kmeans/kmeans-0.png> <a0,fr0>
-<kmeans/kmeans-1.png, id=101, 1606.0pt x 1204.5pt>
+<kmeans/kmeans-1.png, id=110, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-1.png Graphic file (type png)
 <use kmeans/kmeans-1.png>
-Package pdftex.def Info: kmeans/kmeans-1.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-1.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
- <./kmeans/kmeans-1.png> <a0,fr1>
-<kmeans/kmeans-2.png, id=112, 1606.0pt x 1204.5pt>
+ <./kmeans/kmeans-1.png>
+<a0,fr1>
+<kmeans/kmeans-2.png, id=121, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-2.png Graphic file (type png)
 <use kmeans/kmeans-2.png>
-Package pdftex.def Info: kmeans/kmeans-2.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-2.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
  <./kmeans/kmeans-2.png> <a0,fr2>
-<kmeans/kmeans-3.png, id=123, 1606.0pt x 1204.5pt>
+<kmeans/kmeans-3.png, id=132, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-3.png Graphic file (type png)
 <use kmeans/kmeans-3.png>
-Package pdftex.def Info: kmeans/kmeans-3.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-3.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
  <./kmeans/kmeans-3.png> <a0,fr3>
-<kmeans/kmeans-4.png, id=134, 1606.0pt x 1204.5pt>
+<kmeans/kmeans-4.png, id=143, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-4.png Graphic file (type png)
 <use kmeans/kmeans-4.png>
-Package pdftex.def Info: kmeans/kmeans-4.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-4.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
  <./kmeans/kmeans-4.png> <a0,fr4>
-<kmeans/kmeans-5.png, id=145, 1606.0pt x 1204.5pt>
+<kmeans/kmeans-5.png, id=154, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-5.png Graphic file (type png)
 <use kmeans/kmeans-5.png>
-Package pdftex.def Info: kmeans/kmeans-5.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-5.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
  <./kmeans/kmeans-5.png> <a0,fr5>
-<kmeans/kmeans-6.png, id=156, 1606.0pt x 1204.5pt>
+<kmeans/kmeans-6.png, id=165, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-6.png Graphic file (type png)
 <use kmeans/kmeans-6.png>
-Package pdftex.def Info: kmeans/kmeans-6.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-6.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
  <./kmeans/kmeans-6.png> <a0,fr6>
-<kmeans/kmeans-7.png, id=167, 1606.0pt x 1204.5pt>
+<kmeans/kmeans-7.png, id=176, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-7.png Graphic file (type png)
 <use kmeans/kmeans-7.png>
-Package pdftex.def Info: kmeans/kmeans-7.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-7.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
  <./kmeans/kmeans-7.png> <a0,fr7>
-<kmeans/kmeans-8.png, id=178, 1606.0pt x 1204.5pt>
+<kmeans/kmeans-8.png, id=187, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-8.png Graphic file (type png)
 <use kmeans/kmeans-8.png>
-Package pdftex.def Info: kmeans/kmeans-8.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-8.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
- <./kmeans/kmeans-8.png> <a0,fr8>
-<kmeans/kmeans-9.png, id=189, 1606.0pt x 1204.5pt>
+ <./kmeans/kmeans-8.png>
+<a0,fr8>
+<kmeans/kmeans-9.png, id=198, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-9.png Graphic file (type png)
 <use kmeans/kmeans-9.png>
-Package pdftex.def Info: kmeans/kmeans-9.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-9.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
  <./kmeans/kmeans-9.png> <a0,fr9>
-<kmeans/kmeans-10.png, id=200, 1606.0pt x 1204.5pt>
+<kmeans/kmeans-10.png, id=210, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-10.png Graphic file (type png)
 <use kmeans/kmeans-10.png>
-Package pdftex.def Info: kmeans/kmeans-10.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-10.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
  <./kmeans/kmeans-10.png> <a0,fr10>
-<kmeans/kmeans-11.png, id=211, 1606.0pt x 1204.5pt>
+<kmeans/kmeans-11.png, id=221, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-11.png Graphic file (type png)
 <use kmeans/kmeans-11.png>
-Package pdftex.def Info: kmeans/kmeans-11.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-11.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
- <./kmeans/kmeans-11.png>
-<a0,fr11>
-<kmeans/kmeans-12.png, id=223, 1606.0pt x 1204.5pt>
+ <./kmeans/kmeans-11.png> <a0,fr11>
+<kmeans/kmeans-12.png, id=232, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-12.png Graphic file (type png)
 <use kmeans/kmeans-12.png>
-Package pdftex.def Info: kmeans/kmeans-12.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-12.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
  <./kmeans/kmeans-12.png> <a0,fr12>
-<kmeans/kmeans-13.png, id=234, 1606.0pt x 1204.5pt>
+<kmeans/kmeans-13.png, id=243, 1606.0pt x 1204.5pt>
 File: kmeans/kmeans-13.png Graphic file (type png)
 <use kmeans/kmeans-13.png>
-Package pdftex.def Info: kmeans/kmeans-13.png  used on input line 76.
+Package pdftex.def Info: kmeans/kmeans-13.png  used on input line 82.
 (pdftex.def)             Requested size: 1605.99611pt x 1204.49707pt.
- <./kmeans/kmeans-13.png>
-<a0,fr13> [9
+ <./kmeans/kmeans-13.png> <a0,fr13> [10
 
-] [10
+] [11
 
-] (./CLDS_prj.toc) [11
+] (./CSDL_prj.toc) [12
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is: \textbf {1.} on input line 99.
+             The label is: \textbf {1.} on input line 105.
 
-[12
+[13
 
 ]
-<MapReduce.png, id=301, 516.93124pt x 313.17pt>
+<MapReduce.png, id=311, 516.93124pt x 313.17pt>
 File: MapReduce.png Graphic file (type png)
 <use MapReduce.png>
-Package pdftex.def Info: MapReduce.png  used on input line 105.
+Package pdftex.def Info: MapReduce.png  used on input line 111.
 (pdftex.def)             Requested size: 307.28987pt x 186.16881pt.
- [13
+ [14
 
  <./MapReduce.png>]
 
 LaTeX Warning: The counter will not be printed.
-             The label is: \textbf {2.} on input line 121.
+             The label is: \textbf {2.} on input line 127.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 121.
+(Font)              <10> on input line 127.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 121.
+(Font)              <7> on input line 127.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 121.
+(Font)              <5> on input line 127.
 LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <10> not available
-(Font)              Font shape `T5/lmss/m/sl' tried instead on input line 121.
+(Font)              Font shape `T5/lmss/m/sl' tried instead on input line 127.
 LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <7> not available
-(Font)              Font shape `T5/lmss/m/sl' tried instead on input line 121.
+(Font)              Font shape `T5/lmss/m/sl' tried instead on input line 127.
 LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <5> not available
-(Font)              Font shape `T5/lmss/m/sl' tried instead on input line 121.
-[14
-
-]
-
-LaTeX Warning: The counter will not be printed.
-             The label is: \textbf {3.} on input line 137.
-
+(Font)              Font shape `T5/lmss/m/sl' tried instead on input line 127.
 [15
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is: \textbf {4.} on input line 151.
+             The label is: \textbf {3.} on input line 143.
 
 [16
 
 ]
-<MapReduce.jpg, id=329, 182.22365pt x 260.68822pt>
-File: MapReduce.jpg Graphic file (type jpg)
-<use MapReduce.jpg>
-Package pdftex.def Info: MapReduce.jpg  used on input line 157.
-(pdftex.def)             Requested size: 163.99976pt x 234.61722pt.
 
-Overfull \vbox (26.67563pt too high) detected at line 157
- []
+LaTeX Warning: The counter will not be printed.
+             The label is: \textbf {4.} on input line 157.
 
 [17
+
+]
+<MapReduce.jpg, id=338, 182.22365pt x 260.68822pt>
+File: MapReduce.jpg Graphic file (type jpg)
+<use MapReduce.jpg>
+Package pdftex.def Info: MapReduce.jpg  used on input line 163.
+(pdftex.def)             Requested size: 163.99976pt x 234.61722pt.
+
+Overfull \vbox (26.67563pt too high) detected at line 163
+ []
+
+[18
 
  <./MapReduce.jpg>]
 
 Package hyperref Warning: Composite letter `\textdotbelow+\acircumflex'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 159.
+(hyperref)                removing `\textdotbelow' on input line 165.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\acircumflex' on input line 159.
+(hyperref)                removing `\acircumflex' on input line 165.
 
-[18
+[19
 
-] (./CLDS_prj.toc) [19
+] (./CSDL_prj.toc) [20
+
+] [21
 
 ]
+
+LaTeX Warning: The counter will not be printed.
+             The label is: Bước\space 3: on input line 197.
+
+<MRK-Means.png, id=372, 685.56125pt x 486.81876pt>
+File: MRK-Means.png Graphic file (type png)
+<use MRK-Means.png>
+Package pdftex.def Info: MRK-Means.png  used on input line 197.
+(pdftex.def)             Requested size: 185.104pt x 131.44281pt.
+
+Overfull \vbox (20.75098pt too high) detected at line 197
+ []
+
+[22
+
+ <./MRK-Means.png>]
 \tf@nav=\write6
-\openout6 = `CLDS_prj.nav'.
+\openout6 = `CSDL_prj.nav'.
 
 \tf@toc=\write7
-\openout7 = `CLDS_prj.toc'.
+\openout7 = `CSDL_prj.toc'.
 
 \tf@snm=\write8
-\openout8 = `CLDS_prj.snm'.
+\openout8 = `CSDL_prj.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
- (./CLDS_prj.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
-Package rerunfilecheck Info: File `CLDS_prj.out' has not changed.
-(rerunfilecheck)             Checksum: 90AC778D381CB5F25C2A5BFD9FC273FD;199.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
+ (./CSDL_prj.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
+Package rerunfilecheck Info: File `CSDL_prj.out' has not changed.
+(rerunfilecheck)             Checksum: E6D08C14B57BB7D3C75D6FEAC97F13D3;204.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 31867 strings out of 492616
- 625512 string characters out of 6129481
+ 31889 strings out of 492616
+ 625765 string characters out of 6129481
  673128 words of memory out of 5000000
- 35156 multiletter control sequences out of 15000+600000
+ 35170 multiletter control sequences out of 15000+600000
  667971 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,13n,97p,1807b,732s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
-cal/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
-19/texmf-dist/fonts/enc/dvips/lm/lm-t5.enc}</usr/local/texlive/2019/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/f
-onts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
-/public/lm/lmss10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm
-/lmss12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss8.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsso10.pfb>
-Output written on CLDS_prj.pdf (19 pages, 1313264 bytes).
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-t5.enc}{/usr/local/texlive/20
+19/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-d
+ist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2019/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
+/public/lm/lmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm
+/lmss10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss12.pf
+b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2019/texmf-dist
+/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
+e1/public/lm/lmsy10.pfb>
+Output written on CSDL_prj.pdf (22 pages, 1475286 bytes).
 PDF statistics:
- 395 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 545 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 432 PDF objects out of 1000 (max. 8388607)
+ 285 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 555 words of extra memory for PDF output out of 10000 (max. 10000000)
 

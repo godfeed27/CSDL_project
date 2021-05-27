@@ -4,7 +4,7 @@
 \usepackage{animate}
 \usetheme{metropolis}
 \begin{document}
-	\author{Đặng Quang Anh - Lê Thuý Quỳnh - Võ Huy Quang - Nguyễn Minh Hiếu - Minh Tuấn}
+	\author{Đặng Quang Anh - Nguyễn Trung Hiếu - Võ Huy Quang - Lê Thuý Quỳnh - Hoàng Minh Tuấn}
 	\title{K-MEANS TRÊN MAPREDUCE}
 	\date{Tháng 4 2021}
 	%\subtitle{}
@@ -72,7 +72,13 @@
 	\begin{frame}
 		\frametitle{Thuật toán phân cụm K-Means}
 		%chèn ảnh sơ đồ khối
-		\animategraphics[loop, controls, width=6cm]{1}{kmeans/kmeans-}{0}{13}
+		\includegraphics[scale=0.3]{kmean.png}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Thuật toán phân cụm K-Means}
+		%chèn ảnh sơ đồ khối
+		\animategraphics[controls, width=6cm]{1}{kmeans/kmeans-}{0}{13}
 	\end{frame}
 	
 	\section{Mô hình MapReduce}
@@ -125,7 +131,7 @@
 		\begin{enumerate} [\textbf{3.}]
 			\item \textbf{Bộ Reducer:}
 			\begin{itemize}
-				\item Trộn tất cả các phần tử có cùng $key$ trong tập dữ liệu tạo ra bởi Mapper để hình thành tập gái trị nhỏ hơn.
+				\item Trộn tất cả các phần tử có cùng $key$ trong tập dữ liệu tạo ra bởi Mapper để hình thành tập giá trị nhỏ hơn.
 				\item Bộ Reducer thực hiện 3 bước sau :
 				\begin{itemize}
 					\item Bước 1: Đầu vào của Reducer là đầu ra của Mapper. MapReduce sẽ gắn khối liên quan cho bộ Reducer.
@@ -156,8 +162,38 @@
 		\includegraphics[scale=0.9]{MapReduce.jpg}
 	\end{frame}
 	
-	\section{Thuật toán PK-MEANS trên MAPREDUCE}
+	\section{Thuật toán MRK-MEANS (MAPREDUCE K-MEANS)}
 	\frame<beamer>{ 
 		\tableofcontents[currentsection,currentsubsection] 
 	}
+
+	\begin{frame}
+		\frametitle{Cách hoạt động của thuật toán MRK-MEANS}
+		Thuật toán K-Means dựa trên mô hình MapReduce như sau:
+		\begin{enumerate}[Bước 1:]
+			\item Partition:\\
+					Khởi tạo $k$ tâm ban đầu và chia tập dữ liệu thành các tập dữ liệu con nhỏ hơn
+			\item Local clustering:\\
+					Thực hiện tính toán để phân cụm trong từng bộ dữ liệu con\\
+					\begin{itemize}
+						\item Mapper: Đọc dữ liệu $x_i$ và tìm tâm $y_j$ gần với $x_i$ nhất.\\
+								Tức là, $j = argmin_i || x_i - y_j ||_2$ và phát ra $<j, x_i>$
+						\item Combiner: Lấy $<j, \left\{ x_i \right\}>$ và phát ra $<j, \Sigma x_i, num>$ trong đó $num$ là số đối tượng mà Combiner nhận khóa $j$
+					\end{itemize}
+		\end{enumerate}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Cách hoạt động của thuật toán MRK-MEANS}
+		Thuật toán K-Means dựa trên mô hình MapReduce như sau:
+		\begin{enumerate}[Bước 3:]
+			\item Global clustering:\\
+			Gộp cụm ở bộ dữ liệu lớn và tính toán lại tâm mới\\
+			\begin{itemize}
+				\item Reducer: Lấy $<j, \left\{ (\Sigma x_i, num) \right\}>$ và tính tâm mới, phát ra tâm mới $<j, y_j>$ của cụm
+			\end{itemize}
+		\end{enumerate}
+		\includegraphics[scale=0.27]{MRK-Means.png}
+	\end{frame}
+	
 \end{document}
